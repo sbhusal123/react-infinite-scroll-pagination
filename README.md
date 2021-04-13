@@ -9,3 +9,5 @@ export const isBottomOfElementReached = el => {
     return el.getBoundingClientRect().bottom <= window.innerHeight;
 };
 ```
+
+[Demo](https://sbhusal123.github.io/react-infinite-scroll-pagination/)
