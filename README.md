@@ -1,4 +1,4 @@
-# React Redux Infinite Scroll Pagination with Loading Effect
+## React Redux Infinite Scroll Pagination with Loading Effect
 
 **Packages**
 [React Content Loader](https://www.npmjs.com/package/react-content-loader)
