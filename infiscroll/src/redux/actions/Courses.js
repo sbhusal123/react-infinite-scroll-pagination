@@ -8,7 +8,7 @@ export const loadCourses = (page = "1") => {
 
         axios
             .get(
-                "https://semesterone.com/api/courses/?page_size=5&page=" + page
+                "https://semesterone.com/api/courses/?page_size=20&page=" + page
             )
             .then(result => {
                 dispatch({

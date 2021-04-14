@@ -47,9 +47,7 @@ class ClassBasedPaginationScroll extends Component {
             <Fragment>
                 <Container style={{ marginTop: "5%" }}>
                     <Col>
-                        {courseIsLoaded ? null : <Loader />}
-                        {courseIsLoaded ? null : <Loader />}
-                        {courseIsLoaded ? null : <Loader />}
+                        {/* <Loader /> */}
 
                         {/* Wrapper for Course Component */}
                         <div id="courses_list">
@@ -63,9 +61,6 @@ class ClassBasedPaginationScroll extends Component {
                                     />
                                 );
                             })}
-                            {courseIsLoaded ? null : <Loader />}
-                            {courseIsLoaded ? null : <Loader />}
-                            {courseIsLoaded ? null : <Loader />}
                             {courseIsLoaded ? null : <Loader />}
                             {courseIsLoaded ? null : <Loader />}
                             {courseIsLoaded ? null : <Loader />}
