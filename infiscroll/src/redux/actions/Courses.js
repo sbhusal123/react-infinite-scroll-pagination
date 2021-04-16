@@ -8,7 +8,8 @@ export const loadCourses = (page = "1") => {
 
         axios
             .get(
-                "https://semesterone.com/api/courses/?page_size=20&page=" + page
+                "https://semesterone.com/api/courses/?course_type=undergraduate&university_slug=macquarie-university&page_size=20&page=" +
+                    page
             )
             .then(result => {
                 dispatch({
